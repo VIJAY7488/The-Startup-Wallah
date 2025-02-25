@@ -50,7 +50,7 @@ const PeopleStories = () => {
                 <img 
                     src={people.image} 
                     alt={people.title}
-                    className="rounded-md w-full h-50 object-cover mb-4" 
+                    className="rounded-md w-full h-50 object-cover mb-4 border-2 border-blue-600" 
                 />
                 <h1 className="text-2xl font-bold mb-2">
                     {people.title}

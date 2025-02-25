@@ -40,6 +40,7 @@ const Mentorship = () => {
 
   return (
     <div className="bg-gray-100 px-4 sm:px-6 py-8">
+      <h1 className='text-4xl font-bold mb-12 text-primary text-center underline'>Fuel Your Startup</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {cards.map((card) => (
             <div 
@@ -52,11 +53,11 @@ const Mentorship = () => {
                     className="rounded-lg w-full h-48 object-cover mb-4"
                 />
                 <h1 
-                    className="text-lg font-semibold mb-2">
+                    className="text-xl font-semibold mb-2">
                     {card.title}
                 </h1>
                 <p 
-                    className="text-gray-600 text-sm mb-4 leading-relaxed text-justify"
+                    className="text-gray-600 text-md mb-4 leading-relaxed text-justify"
                 >
                     {card.description}
                 </p>
@@ -71,4 +72,4 @@ const Mentorship = () => {
   )
 }
 
-export default Mentorship
+export default Mentorship;
