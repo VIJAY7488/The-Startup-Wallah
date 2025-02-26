@@ -6,23 +6,23 @@ const AboutUs = () => {
     const navigate = useNavigate();
 
   return (
-    <div>
+    <div >
       <section 
-        className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto py-10 px-6">
+        className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto py-12 px-6 ">
         <div className="md:w-1/2 text-left" >
             <h3 
-                className="text-4xl font-bold tracking-wide text-gray-900 uppercase" >
-                About Us
+                className="text-2xl font-bold tracking-wide text-gray-900 uppercase " >
+                Launching a startup?
             </h3>
             <p 
-                className="text-gray-600 mt-4 text-lg leading-relaxed text-justify" >
-                At <span className="text-blue-600 font-bold ">The Startup Wallah</span>, we bridge the gap between startups and success by providing investor access, learning resources, and expert-backed business services. With a database of investors, 
-                visually structured e-books on Marketing, Entrepreneurship, sales, and premium services like web development, pitch decks, and business model structuring—all backed by expert mentorship—we 
-                equip startups with everything they need to grow.
+                className="text-gray-600 mt-4 text-lg leading-relaxed text-justify mt-8 mb-10" >
+                Get the free support you need to launch and grow your startup. 
+                The Startup Wallah provides access to investors, insightful learning resources, 
+                and expert-backed business services everything you need to succeed.
             </p>
             <button 
                 onClick={() => navigate('/signin')}
-                className='className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition"' >
+                className='className="mt-12 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition"' >
                 Sign Up for Free
             </button>
         </div>
@@ -32,9 +32,9 @@ const AboutUs = () => {
             className="md:w-1/2 flex justify-center mt-8 md:mt-0 relative">
             <div className="relative " >
                 <img 
-                    src="https://img.freepik.com/premium-vector/picture-people-room-with-man-woman-sitting-desk_220346-8429.jpg?w=1800" 
+                    src="https://res.cloudinary.com/dsdcta1sr/image/upload/v1740492241/2_dzrcni.svg" 
                     alt="Person working on a laptop" 
-                    className="rounded w-[550px] h-[450px] object-cover"
+                    className="rounded-2xl shadow-lg w-[500px] "
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r  via-transparent to-transparent opacity-30 rounded-lg"></div>
             </div>
