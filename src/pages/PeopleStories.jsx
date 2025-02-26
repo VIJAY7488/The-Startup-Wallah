@@ -10,7 +10,7 @@ const peoples = [
       description:
         "From IIT classrooms to revolutionizing e-commerce with Flipkart.",
       buttonText: "Explore More",
-      link: "/sachinbinnystory",
+      link: "/sachinbannystory",
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ const PeopleStories = () => {
                     {people.title}
                 </h1>
                 <p 
-                    className="text-gray-600 text-md mb-4 leading-relaxed text-justify">
+                    className="text-gray-600 text-md mb-4 leading-relaxed text-start">
                     {people.description}
                 </p>
                 <button 

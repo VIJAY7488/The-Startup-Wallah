@@ -6,15 +6,15 @@ const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-[rgb(242,243,249)] relative overflow-hidden flex flex-col items-center justify-center min-h-screen px-6 py-[100px]">
+    <div className="bg-[rgb(242,243,249)] relative overflow-hidden flex flex-col items-center justify-center min-h-screen px-6 py-[100px] ">
       
       {/* Main Title */}
-      <h1 className="text-2xl sm:text-3xl md:text-3xl font-bold text-primary leading-tight text-center max-w-2xl">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary leading-tight text-center max-w-5xl">
         Your startup journey starts with <span className="text-blue-600">free</span> essential support
       </h1>
 
       {/* Content Container */}
-      <div className="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center gap-12 mt-10">
+      <div className="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center gap-12 mt-12">
         
         {/* Left Section - Text Content */}
         <div className="w-full md:w-1/2 text-center md:text-left px-4">
@@ -27,17 +27,17 @@ const Hero = () => {
           <div className="mt-6 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
             <button 
               onClick={() => navigate('/services')} 
-              className="flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg px-6 py-3 transition-all w-full sm:w-auto"
+              className="flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg px-6 py-3 transition-all w-full sm:w-auto "
             >
-              Our Services
+              Explore More
               <FaArrowRight className="ml-3 h-4 w-4" />
             </button>
-            <button 
+            {/* <button 
               onClick={() => navigate('/investors')} 
               className="border border-blue-500 px-6 py-3 rounded-lg text-blue-500 hover:bg-blue-600 hover:text-white font-medium transition-all w-full sm:w-auto"
             >
               View Investors
-            </button>
+            </button> */}
           </div>
         </div>
 
