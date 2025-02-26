@@ -54,7 +54,7 @@ const WhoStartupWallah = () => {
                     {card.title}
                 </h1>
                 <p 
-                    className="text-gray-600 text-md mb-4 leading-relaxed text-justify"
+                    className="text-gray-600 text-md mb-4 leading-relaxed  flex items-center justify-center"
                 >
                     {card.description}
                 </p>
