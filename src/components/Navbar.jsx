@@ -21,16 +21,19 @@ const Navbar = () => {
 
                 <div className="hidden md:flex items-center space-x-8" >
                     <Link to='/investors' 
+                        onClick={() => scrollTo(0, 0)}
                         className="navbar" >
                         Investors
                     </Link>
 
                     <Link to='/resources' 
+                        onClick={() => scrollTo(0, 0)}
                         className="navbar" >
                         Resources
                     </Link>
 
                     <Link to='/services' 
+                        onClick={() => scrollTo(0, 0)}
                         className="navbar" >
                         Services
                     </Link>
