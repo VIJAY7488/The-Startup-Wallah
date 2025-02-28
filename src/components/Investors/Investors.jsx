@@ -268,12 +268,21 @@ const investors = [
     "linkedin": "https://www.linkedin.com/in/rhythmgupta/",
     "position": "Co-Founder"
   },
-];
-
-     
+];     
     
 
 const Investors = () => {
+
+  const itemPerPage = 8;
+  const totalPages = Math.ceil(investors.length / itemPerPage);
+  
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const paginatedInvestor = investors.slice(
+    (currentPage - 1) * itemPerPage,
+    currentPage * itemPerPage
+  );
+
 
   const [selectedProfile, setSelectedProfile] = useState(null);
 
@@ -289,68 +298,14 @@ const Investors = () => {
     <section className="py-16 bg-gradient-to-b from-gray-100 to-gray-300 mt-12" >
       <div className="max-w-6xl mx-auto px-6">
       <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-6 underline">
-          Meet Our Investors
+          Investors List
       </h2>
-
-      <h3 className="text-xl font-bold text-center mb-5">
-          🚀 Traditional vs. Modern Fundraising – What’s Best for You?
-        </h3>
-
-        {/* Responsive Table */}
-        <div className="overflow-x-auto">
-          <table className="w-full border border-gray-300 text-left">
-            <thead>
-              <tr className="bg-blue-600 text-white text-lg">
-                <th className="border border-gray-300 px-4 py-3">
-                  ❌ The Old Way (Traditional Fundraising)
-                </th>
-                <th className="border border-gray-300 px-4 py-3">
-                  ✅ The Smarter Way (Modern Fundraising)
-                </th>
-              </tr>
-            </thead>
-            <tbody className="text-gray-900">
-              <tr className="bg-white">
-                <td className="border border-gray-300 px-4 py-3">
-                  🔴 Endless struggle to find the right investors
-                </td>
-                <td className="border border-gray-300 px-4 py-3">
-                  💡 Instant Access – 1,800+ verified investors at your fingertips
-                </td>
-              </tr>
-              <tr className="bg-gray-100">
-                <td className="border border-gray-300 px-4 py-3">
-                  🔴 Hours wasted on research instead of building your startup
-                </td>
-                <td className="border border-gray-300 px-4 py-3">
-                  📩 Direct Outreach – Email your pitch deck in just a few clicks
-                </td>
-              </tr>
-              <tr className="bg-white">
-                <td className="border border-gray-300 px-4 py-3">
-                  🔴 Sending 1000s of LinkedIn requests with little response
-                </td>
-                <td className="border border-gray-300 px-4 py-3">
-                  ⏳ Save Time – Focus on scaling, not chasing investors.
-                </td>
-              </tr>
-              <tr className="bg-gray-100">
-                <td className="border border-gray-300 px-4 py-3">
-                  🔴 Losing 2% of your hard-earned funds in platform fees.
-                </td>
-                <td className="border border-gray-300 px-4 py-3">
-                  💰 Keep 100% – No commissions, no hidden fees.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
 
         {/* Investors Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
-          {investors.map((investor, index) => (
+          {paginatedInvestor.map((investor) => (
             <div
-              key={index}
+              key={investor.id}
               className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center hover:shadow-2xl transition transform hover:scale-105"
             >
               <img
@@ -366,6 +321,23 @@ const Investors = () => {
               </button>
             </div>
           ))}
+        </div>
+
+        {/* Pagination Controls */}
+        <div className='flex justify-center mt-8'>
+          <button 
+          className="px-4 py-2 mx-2 bg-blue-600 text-white border rounded disabled:opacity-50"
+          onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+          disabled={currentPage === 1}
+          >
+            Previous
+          </button>
+          <span className="px-4 py-2">{`Page ${currentPage} of ${totalPages}`}</span>
+          <button
+          className="px-4 py-2 mx-2 bg-blue-600 text-white border rounded disabled:opacity-50"
+          onClick={() => setCurrentPage((next) => Math.min(next+1, totalPages))}
+          disabled={currentPage === totalPages}
+          >Next</button>
         </div>
  
        {selectedProfile && (
