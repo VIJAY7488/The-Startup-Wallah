@@ -60,7 +60,7 @@ const PeopleStories = () => {
                     {people.description}
                 </p>
                 <button 
-                    onClick={() => navigate(people.link)}
+                    onClick={() => {navigate(people.link), scrollTo(0,0)}}
                     className="mt-auto bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
                 >
                     {people.buttonText}

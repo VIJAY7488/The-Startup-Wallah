@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const cards = [
     {
       id: 1,
-      image: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1739793466/Investor_sqou1w.jpg",
+      image: "https://thestartupwallah.b-cdn.net/Images/Connect.jpeg",
       title: "Get Connected to Investors in Seconds! ",
       description:
          "Connect with investors, pitch your idea confidently, and secure funding to bring your vision to life. Build relationships, gain insights, and unlock growth opportunities for success.",
@@ -14,7 +14,7 @@ const cards = [
     },
     {
       id: 2,
-      image: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1739794030/businessman_xa1s8p.avif",
+      image: "https://thestartupwallah.b-cdn.net/Images/book.jpeg",
       title: "Essential Startup Resources – Instant Access.",
       description:
         "Grab free e-books on marketing, sales, and entrepreneurship-- everything you need to build and grow your startup.",
@@ -24,7 +24,7 @@ const cards = [
     },
     {
       id: 3,
-      image: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1739793466/group_ywbyd6.jpg",
+      image: "https://thestartupwallah.b-cdn.net/Images/service.jpeg",
       title: "Build. Launch. Grow – We’ve Got You Covered! 🚀✨",
       description:
         "Our startup services include web & app development, pitch decks, and more—everything you need to bring your vision to life. You focus on the idea, we handle the rest!",
@@ -62,7 +62,7 @@ const Mentorship = () => {
                     {card.description}
                 </p>
                 <button 
-                    onClick={() => navigate(card.link)} className="mt-auto bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                    onClick={() => {navigate(card.link), scrollTo(0,0)}} className="mt-auto bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
                     {card.buttonText}
                 </button>
             </div>
