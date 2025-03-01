@@ -10,7 +10,7 @@ const cards = [
     description:
       "Gain real-world insights and proven marketing techniques, created by industry-leading experts, that set your business apart.",
     buttonText: "Get E-Books",
-    link: "/resources/marketing",
+    link: "/resources/marketingebooks",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const cards = [
     description:
       "Discover actionable insights and time-tested sales strategies, developed by top sales innovators, that distinguish your business from the competition.",
     buttonText: "Get E-Books",
-    link: "/resources/sales",
+    link: "/resources/salesebooks",
   },
   {
     id: 3,
@@ -30,14 +30,14 @@ const cards = [
     description:
       "Discover actionable insights and time-tested entrepreneurial strategies, developed by visionary founders, that set your venture apart in today's competitive landscape.",
     buttonText: "Get E-Books",
-    link: "/resources/entrepreneurship",
+    link: "/resources/entrepreneursebooks",
   },
 ];
 const Resources = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-gray-100 px-4 sm:px-6 py-8 mt-[65px] ">
-      <h1 className="text-4xl font-bold mb-3 text-primary text-center underline ">
+      <h1 className="text-4xl font-bold mb-3 text-primary text-center ">
         Resources
       </h1>
       <p className="text-md flex items-center justify-center">Unlock the full potential of your business with our stunning suite of

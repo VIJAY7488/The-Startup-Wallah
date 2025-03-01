@@ -8,6 +8,9 @@ import NotFound from './components/NotFound'
 import Footer from './components/Footer'
 import SachinBannyStory from './components/SuccessfulStory/SachinBannyStory'
 import RiteshStory from './components/SuccessfulStory/RiteshStory'
+import SalesEbookSection from './components/Resources/SalesEbookSection'
+import MarketingEbookSection from './components/Resources/MarketingEbookSection'
+import EntrepreneurEbookSection from './components/Resources/EntrepreneurEbookSection'
 
 const App = () => {
   return (
@@ -16,6 +19,9 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/resources' element={<Resources/>} />
+        <Route path='/resources/marketingebooks' element={<MarketingEbookSection/>} />
+        <Route path='/resources/salesebooks' element={<SalesEbookSection/>} />
+        <Route path='/resources/entrepreneursebooks' element={<EntrepreneurEbookSection/>} />
         <Route path='/services' element={<Services/>} />
         <Route path='/sachinbannystory' element={< SachinBannyStory/>}/>
         <Route path='/riteshstory' element={< RiteshStory/>}/>
