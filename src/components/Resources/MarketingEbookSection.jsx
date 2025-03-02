@@ -3,16 +3,16 @@ import marketingBook from "../../assets/marketing";
 
 const ebooks = [
     { id: 1, name: "Marketing Techniques (ATL-BTL-TTL)", link: marketingBook.ATLBTLTTL, image: marketingBook.ATLBTLTTLImage },
-    { id: 2, name: "Digital Marketing Essentials", link: marketingBook.AARRRmodle, image: marketingBook.AARRRmodleImage },
-    { id: 3, name: "Social Media Growth Hacks", link: marketingBook.B2Bmarketingstrategy, image: marketingBook.B2BmarketingstrategyImage },
-    { id: 4, name: "SEO Best Practices", link: marketingBook.Battersysteminmarketing, image: marketingBook.BattersysteminmarketingImage },
-    { id: 5, name: "Content Marketing Guide", link: marketingBook.BusinessModels, image: marketingBook.BusinessModelsImage },
-    { id: 6, name: "Content Marketing Guide", link: marketingBook.BuildingCustomerLoyality, image: marketingBook.BuildingCustomerLoyalityImage },
-    { id: 7, name: "Content Marketing Guide", link: marketingBook.StepFormulaforStrategicExecution, image: marketingBook.StepFormulaforStrategicExecutionImage },
-    { id: 8, name: "BUSINESS MODELS", link: marketingBook.BusinessModels, image: marketingBook.BusinessModelsImage },
-    { id: 9, name: "Content Marketing Guide", link: marketingBook.MomentMarketing, image: marketingBook.MomentMarketingImage },
-    { id: 10, name: "Content Marketing Guide", link: marketingBook.thePowerofCrossPromotion, image: marketingBook.thePowerofCrossPromotionImage },
-    { id: 11, name: "Content Marketing Guide", link: marketingBook.TheUltimateGuidetoGuerrillaMarketing, image: marketingBook.TheUltimateGuidetoGuerrillaMarketingImage },
+    { id: 2, name: "AARRR Framework", link: marketingBook.AARRRmodle, image: marketingBook.AARRRmodleImage },
+    { id: 3, name: "B2B Marketing Strategy", link: marketingBook.B2Bmarketingstrategy, image: marketingBook.B2BmarketingstrategyImage },
+    { id: 4, name: "Barter System in Marketing", link: marketingBook.Battersysteminmarketing, image: marketingBook.BattersysteminmarketingImage },
+    { id: 5, name: "Business Models (B2B, B2C, B2G and more)", link: marketingBook.BusinessModels, image: marketingBook.BusinessModelsImage },
+    { id: 6, name: "Building Customer Loyalty", link: marketingBook.BuildingCustomerLoyality, image: marketingBook.BuildingCustomerLoyalityImage },
+    { id: 7, name: "4 Step Formula for Strategic Execution", link: marketingBook.StepFormulaforStrategicExecution, image: marketingBook.StepFormulaforStrategicExecutionImage },
+    { id: 8, name: "7 Marketing Strategies", link: marketingBook.marketingStrategy, image: marketingBook.marketingStrategyImage },
+    { id: 9, name: "Moment Marketing", link: marketingBook.MomentMarketing, image: marketingBook.MomentMarketingImage },
+    { id: 10, name: "The Power of Cross Promotion", link: marketingBook.thePowerofCrossPromotion, image: marketingBook.thePowerofCrossPromotionImage },
+    { id: 11, name: "The Ultimate Guide to Guerrilla Marketing", link: marketingBook.TheUltimateGuidetoGuerrillaMarketing, image: marketingBook.TheUltimateGuidetoGuerrillaMarketingImage },
 ];
 
 const MarketingEbookSection = () => {
@@ -25,7 +25,7 @@ const MarketingEbookSection = () => {
             <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {ebooks.map((ebook) => (
                     <div key={ebook.id} className="bg-white p-4 rounded-xl shadow-lg flex flex-col items-center text-center">
-                        <img src={ebook.image} alt={ebook.name} className="w-full h-[200px]   rounded mb-4" />
+                        <img src={ebook.image} alt={ebook.name} className="w-full h-[200px]  rounded mb-4" />
                         <h2 className="text-xl font-semibold mb-2">{ebook.name}</h2>
                         <a
                             href={ebook.link}
