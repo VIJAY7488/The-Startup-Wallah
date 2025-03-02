@@ -3,7 +3,7 @@ const BenefitsSection=() => {
     <section className="py-16 px-6 sm:px-10 max-w-5xl mx-auto relative">
       {/* Title */}
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 relative">
-        <span className="relative z-10 underline">Benefits of The Startup Wallah</span>
+        <span className="relative z-10 ">Benefits of The Startup Wallah</span>
         <div className="absolute inset-0 blur-2xl bg-purple-200/50 -z-10" />
       </h2>
 

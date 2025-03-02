@@ -6,7 +6,7 @@ const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-[rgb(242,243,249)] relative overflow-hidden flex flex-col items-center justify-center min-h-screen px-6 py-[100px] ">
+    <div className="bg-[rgb(242,243,249)] relative overflow-hidden flex flex-col items-center justify-center min-h-screen px-6 py-[100px] bg-[url('')] bg-cover">
       
       {/* Main Title */}
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary leading-tight text-center max-w-5xl">

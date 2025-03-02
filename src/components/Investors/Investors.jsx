@@ -295,9 +295,9 @@ const Investors = () => {
   }
 
   return (
-    <section className="py-16 bg-gradient-to-b from-gray-100 to-gray-300 mt-12" >
+    <section className="py-16 bg-gradient-to-b from-gray-100 to-gray-300 mt-10" >
       <div className="max-w-6xl mx-auto px-6">
-      <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-6 underline">
+      <h2 className="text-4xl font-bold text-center text-gray-900 mb-6 ">
           Investors List
       </h2>
 

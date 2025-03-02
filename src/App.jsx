@@ -7,6 +7,9 @@ import Services from './components/Services/Services'
 import NotFound from './components/NotFound'
 import Footer from './components/Footer'
 import Investors from './components/Investors/Investors'
+import MarketingEbookSection from './components/Resources/MarketingEbookSection'
+import SalesEbookSection from './components/Resources/SalesEbookSection'
+import EntrepreneurshipEbookSection from './components/Resources/EntrepreneurshipEbookSection'
 import PdfViewer from './pages/PdfViewer'
 
 const App = () => {
@@ -17,6 +20,9 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/investors' element={<Investors/>} />
         <Route path='/resources' element={<Resources/>} />
+        <Route path='/resources/marketingebook' element={<MarketingEbookSection/>} />
+        <Route path='/resources/salesebook' element={<SalesEbookSection/>} />
+        <Route path='/resources/entrepreneurshipebook' element={<EntrepreneurshipEbookSection/>} />
         <Route path='/services' element={<Services/>} />
         <Route path='*' element={<NotFound/>} />
         <Route path='/stories/:fileName' element={<PdfViewer/>} />

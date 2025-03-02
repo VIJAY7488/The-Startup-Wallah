@@ -8,7 +8,7 @@ const cards = [
       image: "https://thestartupwallah.b-cdn.net/Images/Connect.jpeg",
       title: "Get Connected to Investors in Seconds! ",
       description:
-         "Connect with investors, pitch your idea confidently, and secure funding to bring your vision to life. Build relationships, gain insights, and unlock growth opportunities for success.",
+         "Pitch your idea confidently, connect with investors, and secure funding to grow your vision. Build relationships and unlock opportunities for success.",
       buttonText: "Get Started",
       link:"/investors"
     },
@@ -17,7 +17,7 @@ const cards = [
       image: "https://thestartupwallah.b-cdn.net/Images/book.jpeg",
       title: "Essential Startup Resources – Instant Access.",
       description:
-        "Grab free e-books on marketing, sales, and entrepreneurship-- everything you need to build and grow your startup.",
+        "Grab free e-books on marketing, sales, and entrepreneurship- everything you need to build and grow your startup.",
       buttonText: "Explore",
       link:"/resources"
   
@@ -25,9 +25,9 @@ const cards = [
     {
       id: 3,
       image: "https://thestartupwallah.b-cdn.net/Images/service.jpeg",
-      title: "Build. Launch. Grow – We’ve Got You Covered! 🚀✨",
+      title: "Build. Launch. Grow – We’ve Got You Covered!",
       description:
-        "Our startup services include web & app development, pitch decks, and more—everything you need to bring your vision to life. You focus on the idea, we handle the rest!",
+        "We turn your ideas into reality with web & app development, pitch decks, and more—while you focus on the vision!",
       buttonText: "Learn More",
       link:"/services"
     },
@@ -40,7 +40,7 @@ const Mentorship = () => {
 
   return (
     <div className="bg-gray-100 px-4 sm:px-6 py-8">
-      <h1 className='text-4xl font-bold mb-12 text-primary text-center underline'>Fuel Your Startup</h1>
+      <h1 className='text-4xl font-bold mb-12 text-primary text-center '>Fuel Your Startup</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {cards.map((card) => (
             <div 
@@ -50,14 +50,14 @@ const Mentorship = () => {
                 <img 
                     src={card.image} 
                     alt={card.title}
-                    className="rounded-lg w-full h-48 object-cover mb-4"
+                    className="rounded w-full h-48 object-cover mb-4 border-2 border-blue-600"
                 />
                 <h1 
                     className="text-xl font-semibold mb-2">
                     {card.title}
                 </h1>
                 <p 
-                    className="text-gray-600 text-md mb-4 leading-relaxed text-justify"
+                    className="text-gray-600 text-md mb-4 leading-relaxed test-start letter-spacing-1"
                 >
                     {card.description}
                 </p>
