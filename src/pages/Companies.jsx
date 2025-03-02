@@ -21,7 +21,7 @@ const Companies = () => {
         Backed by Industry Leaders & Visionary Investors: 
       </h2>
 
-      <div className="overflow-hidden w-full relative max-w-screen">
+      <div className="overflow-hidden w-full relative max-w-screen mb-10">
         <motion.div 
           className="flex w-max gap-6 sm:gap-8" 
           animate={{ x: ["0%", "-50%"] }}

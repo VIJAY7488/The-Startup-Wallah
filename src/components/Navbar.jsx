@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className="flex-shrink-0 flex items-center" >
                     <Link to='/' 
                         className="text-xl font-bold text-primary w-[245px]" >
-                        The Startup Wallah
+                        The Startup Wallah <sup className="text-xs text-red-600 bg-gray-300 px-1 rounded">BETA</sup>
                     </Link>
                 </div>
 

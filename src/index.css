@@ -35,6 +35,9 @@
       --radius: 0.75rem;
     } */
 
+ html {
+     scroll-behavior: smooth;
+}
 @layer components{
     .navbar{
         @apply text-gray-600 hover:text-[rgb(15,23,42)]

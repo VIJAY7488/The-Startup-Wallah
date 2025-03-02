@@ -8,7 +8,7 @@ const cards = [
       image: "https://thestartupwallah.b-cdn.net/Images/Connect.jpeg",
       title: "Get Connected to Investors in Seconds! ",
       description:
-         "Pitch your idea confidently, connect with investors, and secure funding to grow your vision. Build relationships and unlock opportunities for success.",
+         "Pitch confidently, connect with investors, and secure funding to grow your vision. Build relationships and unlock success.",
       buttonText: "Get Started",
       link:"/investors"
     },
@@ -39,7 +39,7 @@ const Mentorship = () => {
     const navigate = useNavigate();
 
   return (
-    <div className="bg-gray-100 px-4 sm:px-6 py-8">
+    <div id='mentorship' className="bg-gray-100 px-4 sm:px-6 py-8 ">
       <h1 className='text-4xl font-bold mb-12 text-primary text-center '>Fuel Your Startup</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {cards.map((card) => (

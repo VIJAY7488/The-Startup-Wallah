@@ -32,6 +32,16 @@ const cards = [
     buttonText: "Get E-Books",
     link: "/resources/entrepreneurshipebook",
   },
+  {
+    id: 4,
+    image:
+      "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740913944/WhatsApp_agqbyo.jpg",
+    title: "Government Funding Guide for Indian Startups (2025)",
+    description:
+      "Explore government grants, schemes, and incentives for Indian startups in 2025, including eligibility and application details.",
+    buttonText: "Get E-Books",
+    link: "/",
+  },
 ];
 const Resources = () => {
   const navigate = useNavigate();
@@ -40,7 +50,7 @@ const Resources = () => {
       <h1 className="text-4xl font-bold mb-3 text-primary text-center  ">
         Resources
       </h1>
-      <p className="text-md flex items-center justify-center">Unlock the full potential of your business with our stunning suite of
+      <p className="text-lg font-semibold text-center max-w-5xl mx-auto mb-6 ">Unlock the full potential of your business with our stunning suite of
       e-books</p>
       <span className=" flex text-md mb-8  px-5  text-justify mt-4">
         Each a beautifully crafted guide designed to inspire and

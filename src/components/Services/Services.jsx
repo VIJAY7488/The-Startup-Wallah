@@ -27,7 +27,7 @@ const service = [
       title: "Sales Funnel Services",
       description: "Creating unique and professional logo designs tailored to your brand identity.",
       link: "/services/salesfunnel",
-      img: "https://img.freepik.com/premium-vector/modern-web-graphics-pack-vector-eps_1348508-20.jpg?uid=R187627718&ga=GA1.1.856026252.1735303750&semt=ais_hybrid",
+      img: "https://img.freepik.com/premium-photo/realistic-marketing-funnel-diagram-professional-business-setting_1198884-35338.jpg?uid=R187627718&ga=GA1.1.856026252.1735303750&semt=ais_hybrid",
       buttonText: "Explore More",
     },
   ];

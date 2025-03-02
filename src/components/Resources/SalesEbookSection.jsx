@@ -2,11 +2,11 @@ import React from 'react';
 import salesBook from "../../assets/sales";
 
 const ebooks = [
-    { id: 1, name: "Marketing Strategies for Startups", link: salesBook.book1, image: salesBook.Image1 },
-    { id: 2, name: "Digital Marketing Essentials", link: salesBook.book2, image: salesBook.Image2 },
-    { id: 3, name: "Social Media Growth Hacks", link: salesBook.book3, image: salesBook.Image3 },
-    { id: 4, name: "SEO Best Practices", link: salesBook.book4, image: salesBook.Image4 },
-    { id: 5, name: "Content Marketing Guide", link: salesBook.book5, image: salesBook.Image5 },
+    { id: 1, name: "B2B Sales Strategy", link: salesBook.book1, image: salesBook.Image1 },
+    { id: 2, name: "Building Customer Loyality", link: salesBook.book2, image: salesBook.Image2 },
+    { id: 3, name: "Cold Call strategy for D2C brand", link: salesBook.book3, image: salesBook.Image3 },
+    { id: 4, name: "Customer Centric Sales", link: salesBook.book4, image: salesBook.Image4 },
+    { id: 5, name: "4 Step Formula for Strategic Execution", link: salesBook.book5, image: salesBook.Image5 },
 ];
 
 const SalesEbookSection = () => {

@@ -2,11 +2,12 @@ import React from "react";
 import entrepreneurshipBook from "../../assets/entrepreneurship";
 
 const ebooks = [
-    { id: 1, name: "Marketing Strategies for Startups", link: entrepreneurshipBook.ATLBTLTTL, image:entrepreneurshipBook.image1  },
-    { id: 2, name: "Digital Marketing Essentials", link: entrepreneurshipBook.BuildingCustomerLoyality, image: entrepreneurshipBook.image2 },
-    { id: 3, name: "Social Media Growth Hacks", link: entrepreneurshipBook.StepFormulaforStrategicExecution, image: entrepreneurshipBook.image3 },
-    { id: 4, name: "SEO Best Practices", link: entrepreneurshipBook.marketingStrategy, image: entrepreneurshipBook.image4 },
-    { id: 5, name: "Content Marketing Guide", link: entrepreneurshipBook.AARRRmodle, image: entrepreneurshipBook.image5 },
+    { id: 1, name: "The Entrepreneurial Mindset", link: entrepreneurshipBook.ATLBTLTTL, image:entrepreneurshipBook.image1  },
+    { id: 2, name: "Market Gaps", link: entrepreneurshipBook.BuildingCustomerLoyality, image: entrepreneurshipBook.image2 },
+    { id: 3, name: "Product Market Fit", link: entrepreneurshipBook.StepFormulaforStrategicExecution, image: entrepreneurshipBook.image3 },
+    { id: 4, name: "TAM SAM SO MO", link: entrepreneurshipBook.marketingStrategy, image: entrepreneurshipBook.image4 },
+    { id: 5, name: "Minimal Viable Product(MVP)", link: entrepreneurshipBook.AARRRmodle, image: entrepreneurshipBook.image5 },
+    { id: 6, name: "Essential Questions & Answers for Building a Startup", link: entrepreneurshipBook.Book6, image: entrepreneurshipBook.image6 },
 ];
 
 const EntrepreneurshipEbookSection = () => {

@@ -1,39 +1,37 @@
 const marketingBook = {
   ATLBTLTTL: "/MarketingEbook/ATLBTLTTL.pdf",
-  ATLBTLTTLImage: "https://img.freepik.com/free-vector/education-infographic-template_1212-123.jpg?uid=R187627718&ga=GA1.1.856026252.1735303750&semt=ais_hybrid",
+  ATLBTLTTLImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740908686/_ATL_BTL_and_TTL_lz83u7.png",
 
   BuildingCustomerLoyality: "/MarketingEbook/BuildingCustomerLoyality.pdf",
-  BuildingCustomerLoyalityImage: "https://example.com/images/BuildingCustomerLoyality.jpg",
+  BuildingCustomerLoyalityImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740909698/Screenshot_2025-03-02_153120_axiped.png",
 
   StepFormulaforStrategicExecution: "/MarketingEbook/StepFormulaforStrategicExecution.pdf",
-  StepFormulaforStrategicExecutionImage: "https://example.com/images/StepFormulaforStrategicExecution.jpg",
+  StepFormulaforStrategicExecutionImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740910126/Screenshot_2025-03-02_153552_ya3fve.png",
 
   marketingStrategy: "/MarketingEbook/marketingStrategy.pdf",
-  marketingStrategyImage: "https://example.com/images/marketingStrategy.jpg",
+  marketingStrategyImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740908686/7_marketing_Strategy_ywyzep.png",
 
   AARRRmodle: "/MarketingEbook/AARRRmodle.pdf",
-  AARRRmodleImage: "https://example.com/images/AARRRmodle.jpg",
+  AARRRmodleImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740908686/AARRR_modle_epg6tp.png",
 
   B2Bmarketingstrategy: "/MarketingEbook/B2Bmarketingstrategy.pdf",
-  B2BmarketingstrategyImage: "https://example.com/images/B2Bmarketingstrategy.jpg",
+  B2BmarketingstrategyImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740908686/B2B_marketing_strategy1_oloyjt.png",
 
   Battersysteminmarketing: "/MarketingEbook/Battersysteminmarketing.pdf",
-  BattersysteminmarketingImage: "https://example.com/images/Battersysteminmarketing.jpg",
+  BattersysteminmarketingImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740910127/Screenshot_2025-03-02_153516_chzwwz.png",
 
   BusinessModels: "/MarketingEbook/BusinessModels.pdf",
-  BusinessModelsImage: "https://example.com/images/BusinessModels.jpg",
+  BusinessModelsImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740908686/Business_Models_wjzqoi.png",
 
   MomentMarketing: "/MarketingEbook/MomentMarketing.pdf",
-  MomentMarketingImage: "https://example.com/images/MomentMarketing.jpg",
+  MomentMarketingImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740908687/Moment_Marketing_cugc25.png",
 
   thePowerofCrossPromotion: "/MarketingEbook/thePowerofCrossPromotion.pdf",
-  thePowerofCrossPromotionImage: "https://example.com/images/thePowerofCrossPromotion.jpg",
+  thePowerofCrossPromotionImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740910127/Screenshot_2025-03-02_153641_d8xkkn.png",
 
   TheUltimateGuidetoGuerrillaMarketing: "/MarketingEbook/TheUltimateGuidetoGuerrillaMarketing.pdf",
-  TheUltimateGuidetoGuerrillaMarketingImage: "https://example.com/images/TheUltimateGuidetoGuerrillaMarketing.jpg",
+  TheUltimateGuidetoGuerrillaMarketingImage: "https://res.cloudinary.com/dsdcta1sr/image/upload/v1740910125/Screenshot_2025-03-02_153804_kve9ub.png",
 
-  B2BSalesStrategy: "/SalesEBook/B2BSalesStrategy.pdf",
-  B2BSalesStrategyImage: "https://example.com/images/B2BSalesStrategy.jpg",
 };
 
 export default marketingBook;
