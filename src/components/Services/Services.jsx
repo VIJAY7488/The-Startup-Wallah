@@ -39,7 +39,7 @@ const Services = () => {
   return (
     <div id='services' className="bg-gray-100 px-4 sm:px-6 py-8 mt-[65px]" >
       <div className="max-w-6xl mx-auto leading-relaxed text-justify px-4 ">
-        <h2 className="text-4xl font-bold text-gray-800 underline text-center">Our Services</h2>
+        <h2 className="text-4xl font-bold text-gray-800 mb-3 text-center">Our Services</h2>
         <p className="text-gray-600 mt-2 mb-5 text-center">Providing top-notch solutions for your business success.</p>
         <p>At The Startup Wallah, we're not just service providers; we're partners in your startup's journey. 
           We understand the unique challenges and opportunities startups face, and our premium business services are 

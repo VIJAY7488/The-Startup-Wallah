@@ -39,7 +39,7 @@ const PeopleStories = () => {
   return (
     <div className="bg-gray-100 px-4 sm:px-6 py-8 mt-[65px]" >
       <h1 
-        className="text-4xl font-bold mb-12 text-primary text-center underline" >
+        className="text-4xl font-bold mb-12 text-primary text-center " >
         The Successful people stories
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">

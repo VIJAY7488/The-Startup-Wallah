@@ -17,7 +17,7 @@ const Home = () => {
       <WhoStartupWallah />
       <BenefitsSection/>
       <PeopleStories />
-      <Faq  />
+      <Faq />
     </div>
   )
 }
